@@ -7,7 +7,6 @@ body {
 .calculator {
   display: flex;
   flex-direction: column;
-  flex: 0 0 500px;
   justify-content: center;
   align-items: center;
   border: 1px solid #222222;
@@ -18,3 +17,16 @@ body {
   grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(4, 1fr);
 }
+
+button {
+  text-align: center;
+}
+
+/*
+TODO button styling
+      - gaps
+      - color
+      - font
+      - rounding
+*/
+/* TODO increase size of everything somehow? Scaling? */
