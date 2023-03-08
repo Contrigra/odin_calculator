@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 500px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #222222;
+}
+
+.calculator-numpad {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}
