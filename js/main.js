@@ -40,7 +40,11 @@ let numberStack = []
 
 
 function addNumberToConstructor() {
-  numberConstructionStack.push(this.textContent)
+  if (numberConstructionStack.includes('.') && this.textContent === '.') {
+  } else {
+    numberConstructionStack.push(this.textContent)
+  }
+
 }
 
 function constructAndPushToNumberStack() {
